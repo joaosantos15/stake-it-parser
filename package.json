@@ -1,0 +1,24 @@
+{
+  "name": "stake-it-twitter-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/puppeteer-setup.js --recursive test",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dom": "0.0.3",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.5.0",
+    "tweet-parser": "^0.2.0",
+    "web3-utils": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
